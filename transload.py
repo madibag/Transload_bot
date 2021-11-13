@@ -32,7 +32,7 @@ def trans(link):
         path = "/var/www/html/files"
         )
 
-    base = "https://rapidleech.hashhackers.com/index.php"
+    base = "https://bakaleech-v2.herokuapp.com/index.php"
 
 
     r = post(base,data=data,headers=headers,verify=False)
@@ -68,6 +68,6 @@ def trans(link):
 
    #print(r.text)
 
-    final_link = "https://rapidleech.hashhackers.com"+d[-2]["href"]
+    final_link = "https://bakaleech-v2.herokuapp.com"+d[-2]["href"]
 
     return final_link
