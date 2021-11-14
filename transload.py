@@ -6,7 +6,7 @@ import os
 
 from bs4 import BeautifulSoup as bs
 
-host_url = host_url(Config.host_url, use_context=True)
+host_url = Config.host_url
 
 def trans(link):
 
