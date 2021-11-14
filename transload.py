@@ -1,9 +1,11 @@
 from requests import post
+import os
 #from requests_html import HTMLSession
 
 
 from bs4 import BeautifulSoup as bs
 
+HOST_URL = "https://rapeed-leech.herokuapp.com"
 
 def trans(link):
 
@@ -32,7 +34,7 @@ def trans(link):
         path = "/var/www/html/files"
         )
 
-    base = "https://rapidleech.hashhackers.com/index.php"
+    base = f"{HOST_URL}/index.php"
 
 
     r = post(base,data=data,headers=headers,verify=False)
@@ -68,6 +70,6 @@ def trans(link):
 
    #print(r.text)
 
-    final_link = "https://rapidleech.hashhackers.com"+d[-2]["href"]
+    final_link = f"{HOST_URL}"+d[-2]["href"]
 
     return final_link
