@@ -2,7 +2,7 @@
   "name": "TransloadBot",
   "description": "Telegram's best Open Source Transloadbot from https://rapidleech.hashhackers.com/",
   "success_url": "https://telegram.dog/zisizmybot",
-  "repository": "https://github.com/SpEcHlDe/Transload_bot",
+  "repository": "https://github.com/SpEcHlDe/Transloader-bot",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
