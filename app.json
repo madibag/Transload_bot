@@ -11,6 +11,10 @@
     "TG_BOT_TOKEN": {
       "description": "Your bot token, as a string.",
       "value": ""
+    },
+    "HOST_URL": {
+      "description": "The transloader website, if you don't have your own website, make your own from https://github.com/x-gorn/bakaleech-v2 or leave it as it.
+      "value": "https://s1.rapidleech.gq"
     }
   },
   "addons": [
