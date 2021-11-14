@@ -1,6 +1,6 @@
+from config import Config
 from requests import post
 import os
-from config import config
 #from requests_html import HTMLSession
 
 
