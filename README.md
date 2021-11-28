@@ -1,4 +1,4 @@
-## [Transload_bot](https://telegram.dog/nahoooabot)
+## [Transload_bot](https://telegram.dog/zisizmybot)
 
 # This is Simple Transload bot That  Can be deployed in Heroku
 
