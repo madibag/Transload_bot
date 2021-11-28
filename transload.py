@@ -1,6 +1,6 @@
 from requests import post
 #from requests_html import HTMLSession
-
+from config import Config
 
 from bs4 import BeautifulSoup as bs
 
@@ -32,10 +32,11 @@ def trans(link):
         path = "/var/www/html/files"
         )
 
-    base = "https://rapidleech.hashhackers.com/index.php"
+    #base = "https://rapidleech.hashhackers.com/index.php"
+    base = Config.TR_URL
 
 
-    r = post(base,data=data,headers=headers,verify=False)
+    r = post(base+"/index.php",data=data,headers=headers,verify=False)
     #session = HTMLSession()
     #r = session.post(base,data=data,headers=headers)
     soup = bs(r.text,"lxml")
@@ -56,7 +57,7 @@ def trans(link):
         data.update({a["name"]:a["value"]})
     #session = HTMLSession()
     #r = session.post(base,data=data,headers=h)
-    j = post(base,data=data,headers=headers,verify=False)
+    j = post(base+"/index.php",data=data,headers=headers,verify=False)
 
     final = bs(j.text,"lxml")
 
@@ -68,6 +69,7 @@ def trans(link):
 
    #print(r.text)
 
-    final_link = "https://rapidleech.hashhackers.com"+d[-2]["href"]
+    #final_link = "https://rapidleech.hashhackers.com"+d[-2]["href"]
+    final_link = base+d[-2]["href"]
 
     return final_link
