@@ -70,6 +70,9 @@ def trans(link):
    #print(r.text)
 
     #final_link = "https://rapidleech.hashhackers.com"+d[-2]["href"]
-    final_link = base+d[-2]["href"]
+    try:
+        final_link = base+d[-2]["href"]
+    except:
+        final_link = "THE_ERROR"
 
     return final_link
