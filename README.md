@@ -4,7 +4,7 @@
 
 ## Credits, and Thanks to
 
-#### The Developers of [rapidleach](https://rapidleech.hashhackers.com)
+#### The Developers of [rapidleach](https://github.com/Th3-822/rapidleech)
 ### The Developers of [pyhon pelegram bot](https://github.com/python-telegram-bot/python-telegram-bot)
 
 ### Installation
