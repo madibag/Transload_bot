@@ -11,6 +11,10 @@
     "TG_BOT_TOKEN": {
       "description": "Your bot token, as a string.",
       "value": ""
+    },
+    "TR_URL": {
+      "description": "The transload website Url.",
+      "value": ""
     }
   },
   "addons": [
