@@ -9,8 +9,7 @@ def start(update,context):
     chat_id = update.message.chat.id
 
     context.bot.send_message(chat_id = chat_id,
-                            text = '''HI {} This is File Transloader\n
-                                      Type /help To get more Info'''.format(name),
+                            text = f'HI {name} This is File Transloader\nType /help To get more Info.\nMade in 🇪🇹',
                                       parse_mode=ParseMode.HTML)
 def help(u,c):
     u.message.reply_text("Just send the Url you want To be transloaded")
@@ -23,7 +22,7 @@ def dl(update, context):
     if url.startswith('http'):
         The_link =  trans(url)
 
-    if The_link == "https://rapidleech.hashhackers.com//telegram.dog/BhadooCloud":
+    if The_link == "THE_ERROR":
         context.bot.send_message(chat_id=c_id,
             text ="An Error occured")
         return
