@@ -1,4 +1,4 @@
-from requests import post
+from requests import post,get
 #from requests_html import HTMLSession
 from config import Config
 
@@ -13,7 +13,8 @@ def trans(link):
                 "Accept-Encoding": "gzip, deflate",
                 "Accept-Language": "en-US,en;q=0.9" }
                 
-                
+     
+    getPath = bs(get(Config.TR_URL),'lxml').find('input',id='path')['value']
 
     data = dict(
         link = link,
@@ -29,7 +30,7 @@ def trans(link):
         proxypass  = "", 
         premium_user = "",
         premium_pass = "" ,  
-        path = "/var/www/html/files"
+        path = getPath
         )
 
     #base = "https://rapidleech.hashhackers.com/index.php"
