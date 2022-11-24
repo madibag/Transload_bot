@@ -28,5 +28,5 @@ python bot.py
 #### LICENSE
 - GPLv3
 
-** Request Feature **
+**Request Feature**
 > <img src="https://toppng.com/uploads/preview/telegram-icon-telegram-logo-11563072765e0pl0xsrfe.png" width="20" height="20"> [Request => MADIBA](https://t.me/request_feature)
