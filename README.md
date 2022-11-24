@@ -29,4 +29,4 @@ python bot.py
 - GPLv3
 
 ** Request Feature **
-> <img src="https://toppng.com/uploads/preview/telegram-icon-telegram-logo-11563072765e0pl0xsrfe.png" width="20" height="20"> ![tg](https://toppng.com/uploads/preview/telegram-icon-telegram-logo-11563072765e0pl0xsrfe.png) [Request => MADIBA](https://t.me/request_feature)
+>![tg](https://toppng.com/uploads/preview/telegram-icon-telegram-logo-11563072765e0pl0xsrfe.png) [Request => MADIBA](https://t.me/request_feature)
